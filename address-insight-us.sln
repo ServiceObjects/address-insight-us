@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "address-insight-us-dot-net", "address-insight-us-dot-net\address-insight-us-dot-net.csproj", "{89906FEE-FE61-4109-BCA3-0FAC8BD99EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "address-insight-us-dot-net-examples", "address-insight-us-dot-net-examples\address-insight-us-dot-net-examples.csproj", "{5B825C04-2275-488A-8A2C-4CA0FDFBB5DC}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "address-insight-us-nodejs", "address-insight-us-nodejs\address-insight-us-nodejs.esproj", "{D17F0811-4D35-34AB-F818-FE4A5AB05254}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "address-insight-us-nodejs-examples", "address-insight-us-nodejs-examples\address-insight-us-nodejs-examples.esproj", "{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "address-insight-us-python", "address-insight-us-python\address-insight-us-python.pyproj", "{FD454E50-0921-4726-A832-3D3B7C6FE270}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "address-insight-us-python-examples", "address-insight-us-python-examples\address-insight-us-python-examples.pyproj", "{C8F48970-485B-47BE-83E1-1278E037B0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89906FEE-FE61-4109-BCA3-0FAC8BD99EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89906FEE-FE61-4109-BCA3-0FAC8BD99EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89906FEE-FE61-4109-BCA3-0FAC8BD99EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89906FEE-FE61-4109-BCA3-0FAC8BD99EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B825C04-2275-488A-8A2C-4CA0FDFBB5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B825C04-2275-488A-8A2C-4CA0FDFBB5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B825C04-2275-488A-8A2C-4CA0FDFBB5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B825C04-2275-488A-8A2C-4CA0FDFBB5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17F0811-4D35-34AB-F818-FE4A5AB05254}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D26C3F3-53D7-D2D5-C1C0-2A069E5D93D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FD454E50-0921-4726-A832-3D3B7C6FE270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD454E50-0921-4726-A832-3D3B7C6FE270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F48970-485B-47BE-83E1-1278E037B0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F48970-485B-47BE-83E1-1278E037B0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C371A1-85C0-43F8-B9D1-68017F7D4820}
+	EndGlobalSection
+EndGlobal

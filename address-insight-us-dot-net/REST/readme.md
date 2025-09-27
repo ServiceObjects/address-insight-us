@@ -19,18 +19,16 @@ A Status score is returned giving users an indication of how likely it is that t
 ```
 // 1. Build the input
 //
-//  Required fields:
-//               LicenseKey
-//               IsLive
-// 
-// Optional:
-//        BusinessName
-//        Address1
-//        Address2
-//        City
-//        State
-//        Zip	
-//        TestType
+//  Fields:
+//      BusinessName
+//      Address1
+//      Address2
+//      City
+//      State
+//      Zip	
+//      TestType
+//      LicenseKey
+//      IsLive
 
 using address_insight_us_dot_net.REST;
 
@@ -42,7 +40,7 @@ GetAddressInsightClient.GetAddressInsightInput getAddressInsightInput = new(
     State: "CA",
     Zip: "93101",
     TestType: "census_loose",
-    LicenseKey: "YOUR_LICENSE_KEY_HERE",
+    LicenseKey: "YOUR_LICENSE_KEY",
     IsLive: true,
     TimeoutSeconds: 15
 );

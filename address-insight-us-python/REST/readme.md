@@ -19,18 +19,16 @@ A Status score is returned giving users an indication of how likely it is that t
 ```
 # 1. Build the input
 #
-#  Required fields:
-#               LicenseKey
-#               IsLive
-# 
-# Optional:
-#        BusinessName
-#        Address1
-#        Address2
-#        City
-#        State
-#        Zip	
-#        TestType
+#  Fields:
+#      business_name
+#      address1
+#      address2
+#      city
+#      state
+#      zip	
+#      test_type
+#      license_key
+#      is_live
 
 from get_address_insight_rest import get_address_insight
 
@@ -41,9 +39,11 @@ city = "Santa Barbara"
 state = "CA"
 zip = "93101"
 test_type = "census_loose"
+is_live = True
+license_key = "YOUR LICENSE KEY"
 
 # 2. Call the method.
- response = get_address_insight(business_name, address1, address2, city, state, zip, test_type, license_key, is_live)
+response = get_address_insight(business_name, address1, address2, city, state, zip, test_type, license_key, is_live)
 
 # 3. Inspect results.
 print("\r\n* Address Insight *\r\n")

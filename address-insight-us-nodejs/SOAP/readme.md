@@ -19,30 +19,32 @@ A Status score is returned giving users an indication of how likely it is that t
 ```
 // 1. Build the input
 //
-//  Required fields:
-//               LicenseKey
-//               IsLive
+//  Fields:
+//        businessName
+//        address1
+//        address2
+//        city
+//        state
+//        zip	
+//        testType
+//        licenseKey
+//        isLive
 // 
-// Optional:
-//        BusinessName
-//        Address1
-//        Address2
-//        City
-//        State
-//        Zip	
-//        TestType
-//        TimeoutSeconds (default: 15)
+//  Optional:
+//        timeoutSeconds
 
 import { GetAddressInsightSoap } from '../address-insight-us-nodejs/SOAP/get_address_insight_soap.js';
 
-const businessName = "ServiceObjects";
-const address1 = "42083 County Road 161";
+const businessName = "";
+const address1 = "26 S Chestnut";
 const address2 = "";
-const city = "Agate";
-const state = "CO";
-const zip = "80101";
+const city = "Ventura";
+const state = "CA";
+const zip = "93033";
 const testType = "";
 const timeoutSeconds = 15;
+const isLive = true;
+const licenseKey = "YOUR LICENSE KEY";
 
 // 2. Call the sync Invoke() method.
 const ain = new GetAddressInsightSoap(

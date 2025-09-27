@@ -19,19 +19,18 @@ A Status score is returned giving users an indication of how likely it is that t
 ```
 # 1. Build the input
 #
-#  Required fields:
-#               LicenseKey
-#               IsLive
-# 
+#  Fields:
+#        business_name
+#        address1
+#        address2
+#        city
+#        state
+#        zip	
+#        test_type
+#        license_key
+#        is_live
 # Optional:
-#        BusinessName
-#        Address1
-#        Address2
-#        City
-#        State
-#        Zip	
-#        TestType
-#        TimeoutSeconds (default: 15)
+#        timeout_ms
 
 from get_address_insight_rest import get_address_insight
 

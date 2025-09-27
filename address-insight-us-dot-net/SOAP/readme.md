@@ -21,19 +21,16 @@ A Status score is returned giving users an indication of how likely it is that t
 var ain = new GetAddressInsightValidation(true);
 
 // 2 Provide your input data
-//  Required fields:
-//               LicenseKey
-//               IsLive
-// 
-// Optional:
-//        BusinessName
-//        Address1
-//        Address2
-//        City
-//        State
-//        Zip	
-//        TestType
-//        TimeoutSeconds (default: 15)
+//  Fields:
+//      BusinessName
+//      Address1
+//      Address2
+//      City
+//      State
+//      Zip	
+//      TestType
+//      LicenseKey
+//      IsLive
 
 // 3 Call the service
 string BusinessName = "Service Objects";
@@ -43,7 +40,7 @@ string City         = "Santa Barbara";
 string State        = "CA";
 string Zip          = "93101";
 string TestType     = "census_loose";
-string licenseKey   = "YOUR_LICENSE_KEY_HERE";
+string licenseKey   = "YOUR_LICENSE_KEY";
 
 ResponseObject response = ain.GetAddressInsight(BusinessName, Address1, Address2, City, State, Zip, TestType, licenseKey).Result;
 
